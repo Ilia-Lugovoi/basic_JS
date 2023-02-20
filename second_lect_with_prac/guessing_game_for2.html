@@ -1,0 +1,36 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+	function helpToGuess(number, userNumb){
+		if(number < userNumb){
+			alert("Вы ввели большее число");
+		} else if(number > userNumb){
+			alert("Вы ввели меньшее число");
+		} else {
+			alert("Нужно ввести число от 0 до 100");
+		}
+	}
+
+	var number = parseInt(Math.random() * 100);
+	var player = 1;
+
+	while(true){
+		alert("Очередь игрока под номером " + player);
+		alert("Если желаете покинуть игру, введите: " + "q");
+		var userNumb = prompt("Введите пожалуйста число от 0 до 100:");
+
+		if(userNumb == "q"){
+			break;
+		}
+		userNumb = parseInt(userNumb);
+
+		if(number == userNumb){
+			alert("Поздравляю! Вы угадали!");
+			break;
+		} else {
+			helpToGuess(number, userNumb);
+			player = 2;
+		}
+	}
+
+</script>

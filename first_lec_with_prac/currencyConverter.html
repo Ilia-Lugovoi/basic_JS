@@ -1,0 +1,15 @@
+<meta charset = "utf-8">
+<script type="text/javascript">
+	
+	euro = 63.06;
+	dollar = 60.80;
+
+	var userCount = prompt("Сколько рублей вы хотите сконвертировать?");
+	userCount = parseInt(userCount);
+
+	userEuro = userCount / euro;
+	userDollar = userCount / dollar;
+
+	alert( "       Результат: \n" + userEuro.toFixed(2) + " евро; \n" + userDollar.toFixed(2) + " долларов." );
+
+</script>

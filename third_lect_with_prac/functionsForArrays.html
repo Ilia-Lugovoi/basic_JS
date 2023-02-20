@@ -1,0 +1,59 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+	function getAscSequence(n){
+		var arrayFunc = [];
+		for(var i = 1; i < (n + 1); i++){
+			arrayFunc.push(i);
+		}
+		return arrayFunc;
+	}
+
+	function sumOfNumbsFromArray(array){
+		var m = 0;
+		while(array.length != 0){
+			var n = array.pop();
+			m += n;
+		}
+		return m;
+	}
+
+	function maxWholeNumber(arrayWN){
+		var max = arrayWN[0];
+		for(var i = 1; i <= arrayWN.length; i++){
+			if(max < arrayWN[i]){
+				max = arrayWN[i];
+			}
+		}
+		return max;
+	}
+
+	function minWholeNumber(arrayWN){
+		var min = arrayWN[0];
+		for(var i = 1; i <= arrayWN.length; i++){
+			if(min > arrayWN[i]){
+				min = arrayWN[i];
+			}
+		}
+		return min;
+	}
+
+	var minN = minWholeNumber([9, 99, 0, 7]);
+
+	function onlyEvenNumbs(arrayWN){
+		var evenNumbs = [];
+		while(arrayWN.length != 0){
+			if(arrayWN[arrayWN.length - 1] % 2 == 0){
+				var n = arrayWN.pop();
+				evenNumbs.push(n);
+			} else {
+				arrayWN.pop();
+			}
+		}
+
+		return evenNumbs;
+	}
+
+	var evenArray = onlyEvenNumbs([3, 1, 22, 21, 30, 15, 6, 8]);
+
+</script>

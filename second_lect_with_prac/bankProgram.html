@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+	var numberOfAccruals = 5;
+	var sumOfDeposit = +prompt("Введите сумму вклада:");
+	var depositInterest = +prompt("Введите процет этого вклада:");
+	depositInterest = depositInterest / 100 + 1;
+
+	for(var i = 0; i < numberOfAccruals; i++){
+		sumOfDeposit = sumOfDeposit * depositInterest;
+		alert(sumOfDeposit.toFixed(2) + " рублей\n"); 
+	}
+
+	alert(sumOfDeposit.toFixed(2));
+
+</script>
