@@ -56,7 +56,7 @@
 					<input type="text" name="userAnswer3">
 
 					<br>
-					<input type="submit" value="Ответить" name="">
+					<input type="submit" value="Ответить" name="submit">
 				</form>
 
 			</div>
