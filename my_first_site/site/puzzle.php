@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Личный сайт студента GeekBrains</title>
 	<link rel="stylesheet" href="style.css"> 
 </head>
@@ -55,7 +56,7 @@
 					<input type="text" name="userAnswer3">
 
 					<br>
-					<input type="submit" value="Ответить" name="">
+					<input type="submit" value="Ответить" name="submit">
 				</form>
 
 			</div>

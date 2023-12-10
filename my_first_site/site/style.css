@@ -7,7 +7,7 @@
 
 body {
     background-color: #f7f7f7;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'roboto', sans-serif;
 }
 
 .header {
@@ -105,7 +105,7 @@ body {
     font-weight: 100;
     text-align: center;
     text-decoration: none;
-    padding-right:30px;
+    padding-right: 30px;
 }
 
 
@@ -160,16 +160,21 @@ body {
     background-color: #5ba1d3;
 }
 
-.footer { /* # == id */
-    background-color: #434445;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    float: left;
-    height: 140px;
-    text-align: center;
+    background-color: #434445;
     color: #a4a4a4;
-    font-size: 20px;
-    font-weight: 100;
-    line-height: 140px;
+    text-align: center;
+    padding: 45px;    
+  }
+
+@media (max-width: 600px) {
+    .footer {
+      position: static;
+    }
 }
 
 .footer a {
