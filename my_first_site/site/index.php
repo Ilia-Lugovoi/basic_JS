@@ -16,20 +16,20 @@
 		<h1>Личный сайт студента GeekBrains</h1>
 
 		<div class="center">
-		<img src="img/DSC08931.JPG">
-			<div class="box_text">
-				<p><b>Добрый день</b>. Меня зовут <i>Ilia Lugovoi</i>. Предлагаю вашему внимаю мой сайт, на котором вы сможете сыграть в игры</p>
+			<img src="img/DSC08931.JPG">
+		<div class="box_text">
+			<p><b>Добрый день</b>. Меня зовут <i>Ilia Lugovoi</i>. Предлагаю вашему внимаю мой сайт, на котором вы сможете сыграть в игры</p>
 
-				<p>В этом мне помог IT-портал <a href="https://geekbrains.ru">GeekBrains</a></p>
+			<p>В этом мне помог IT-портал <a href="https://geekbrains.ru">GeekBrains</a></p>
 
-				<p>Представляю Вашему вниманию: <br><br>
+			<p>Представляю Вашему вниманию: <br><br>
 				<a href="index.php">Главная</a>
 				<a href="puzzle.php">Загадки</a>
 				<a href="guess.php">Угадайка</a> <br>
 				<a href="guess2.php">Угадайка на двоих</a>
 				<a href="password_generator.php">Генератор паролей</a>
-				</p>
-			</div>
+			</p>
+		</div>
 		</div>
 		</div>
 
