@@ -7,11 +7,10 @@
 
 body {
     background-color: #f7f7f7;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'roboto', sans-serif;
 }
 
 .header {
-    min-width: 1300px;
     border-bottom: 1px solid #b5b7ba;
     background-color: #dfdfdf;
     margin: 0 auto;
@@ -25,7 +24,6 @@ body {
 }
 
 .center {
-    width: 1300px;
     margin: 0 auto;
 }
 
@@ -53,7 +51,6 @@ body {
 
 .content h1 {
     width: 100%;
-    float: left;
     text-align: center;
     color: #2e353d;
     font-size: 40px;
@@ -78,7 +75,6 @@ body {
 }
 
 .content img {
-    margin-left: 17px;
     width: 389px;
     border-radius: 50%;
 }
@@ -163,7 +159,6 @@ body {
 .footer { /* # == id */
     background-color: #434445;
     width: 100%;
-    float: left;
     height: 140px;
     text-align: center;
     color: #a4a4a4;
